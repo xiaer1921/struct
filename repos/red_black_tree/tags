@@ -1,0 +1,56 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BLACK	rb_tree.h	5;"	d
+Node	rb_tree.h	/^}Node, *RBTree;$/;"	t	typeref:struct:RBTreeNode
+RBRoot	rb_tree.h	/^typedef struct RBRoot{$/;"	s
+RBRoot	rb_tree.h	/^}RBRoot;$/;"	t	typeref:struct:RBRoot
+RBTree	rb_tree.h	/^}Node, *RBTree;$/;"	t	typeref:struct:RBTreeNode
+RBTreeNode	rb_tree.h	/^typedef struct RBTreeNode$/;"	s
+RED	rb_tree.h	4;"	d
+Type	rb_tree.h	/^typedef int Type;$/;"	t
+_RBD_BLACK_TREE_H_	rb_tree.h	2;"	d
+color	rb_tree.h	/^    unsigned char color;$/;"	m	struct:RBTreeNode
+createRBTree	rb_tree.c	/^RBRoot* createRBTree()$/;"	f
+createRBTreeNode	rb_tree.c	/^static Node* createRBTreeNode(Type key, Node* parent, Node* left, Node* right)$/;"	f	file:
+deleteRBTree	rb_tree.c	/^void deleteRBTree(RBTree* root, Type key)$/;"	f
+destroyRBTree	rb_tree.c	/^void destroyRBTree(RBTree* root)$/;"	f
+inorder	rb_tree.c	/^static void inorder(RBTree tree)$/;"	f	file:
+inorderRBTree	rb_tree.c	/^void inorderRBTree(RBRoot* root)$/;"	f
+iterativeRBTreeSearch	rb_tree.c	/^int iterativeRBTreeSearch(RBRoot* root, Type key)$/;"	f
+iterative_search	rb_tree.c	/^static Node* iterative_search(RBTree x, Type key)$/;"	f	file:
+key	rb_tree.h	/^    Type key;$/;"	m	struct:RBTreeNode
+left	rb_tree.h	/^    struct RBTreeNode* left;$/;"	m	struct:RBTreeNode	typeref:struct:RBTreeNode::RBTreeNode
+maximum	rb_tree.c	/^static Node* maximum(RBTree tree)$/;"	f	file:
+minimum	rb_tree.c	/^static Node* minimum(RBTree tree)$/;"	f	file:
+node	rb_tree.h	/^    Node* node;$/;"	m	struct:RBRoot
+parent	rb_tree.h	/^    struct RBTreeNode* parent;$/;"	m	struct:RBTreeNode	typeref:struct:RBTreeNode::RBTreeNode
+postorder	rb_tree.c	/^static void postorder(RBTree tree)$/;"	f	file:
+postorderRBTree	rb_tree.c	/^void postorderRBTree(RBRoot* root)$/;"	f
+preorder	rb_tree.c	/^static void preorder(RBTree tree)$/;"	f	file:
+preorderRBTree	rb_tree.c	/^void preorderRBTree(RBRoot* root)$/;"	f
+printRBTree	rb_tree.c	/^void printRBTree(RBTree* root)$/;"	f
+rbTreeDestroy	rb_tree.c	/^static void rbTreeDestroy(RBTree tree)$/;"	f	file:
+rbTreeInsert	rb_tree.c	/^static void rbTreeInsert(RBRoot* root, Node* node)$/;"	f	file:
+rbTreeInsertFixup	rb_tree.c	/^static void rbTreeInsertFixup(RBRoot* root, Node* node)$/;"	f	file:
+rbTreeLeftRotate	rb_tree.c	/^static void rbTreeLeftRotate(RBRoot* root, Node* x)$/;"	f	file:
+rbTreeMaximum	rb_tree.c	/^int rbTreeMaximum(RBRoot* root, int* val)$/;"	f
+rbTreeMinimum	rb_tree.c	/^int rbTreeMinimum(RBRoot* root, int* val)$/;"	f
+rbTreePreSuccessor	rb_tree.c	/^static Node* rbTreePreSuccessor(RBTree x)$/;"	f	file:
+rbTreePrint	rb_tree.c	/^static void rbTreePrint(RBTree tree, Type key, int direction)$/;"	f	file:
+rbTreeRightRotate	rb_tree.c	/^static void rbTreeRightRotate(RBRoot* root, Node* y)$/;"	f	file:
+rbTreeSearch	rb_tree.c	/^int rbTreeSearch(RBRoot* root, Type key)$/;"	f
+rbTreeSuccessor	rb_tree.c	/^static Node* rbTreeSuccessor(RBTree x)$/;"	f	file:
+rb_color	rb_tree.c	6;"	d	file:
+rb_is_black	rb_tree.c	8;"	d	file:
+rb_is_red	rb_tree.c	7;"	d	file:
+rb_parent	rb_tree.c	5;"	d	file:
+rb_set_black	rb_tree.c	10;"	d	file:
+rb_set_color	rb_tree.c	12;"	d	file:
+rb_set_parent	rb_tree.c	11;"	d	file:
+rb_set_red	rb_tree.c	9;"	d	file:
+right	rb_tree.h	/^    struct RBTreeNode* right;$/;"	m	struct:RBTreeNode	typeref:struct:RBTreeNode::RBTreeNode
+search	rb_tree.c	/^static Node* search(RBTree x, Type key)$/;"	f	file:
