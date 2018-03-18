@@ -1,5 +1,5 @@
-#hash
-#leetcode_1
+//hash
+//leetcode_1
 typedef struct HashNode{
 	int key;
 	int value;

@@ -1,5 +1,5 @@
-#stack
-#leetcode_20
+//stack
+//leetcode_20
 typedef struct Node{
     char x;
     struct Node* next;
