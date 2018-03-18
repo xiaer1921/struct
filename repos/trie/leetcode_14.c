@@ -1,5 +1,5 @@
-#Longest Common Prefix
-#trie leetcode_14
+//Longest Common Prefix
+//trie leetcode_14
 
 typedef struct Node{
     struct Node* child[26];
